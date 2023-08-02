@@ -28,6 +28,10 @@ ul {
   list-style-type: none;
 }
 
+h1, h2, h3, h4 {
+    color: #4b4b4b;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -144,6 +148,52 @@ ul {
   color: #5b8dd9;
 }
 
+/*start learning*/
+
+.start-learing{
+    padding: 32px 32px 72px 72px;
+    background-color: #e9eaec;
+}
+
+.start-learing h3 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+.start-learing-course {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.start-learing-course-set {
+    background-color: white;
+}
+
+
+.start-learing-course-set img {
+    height: auto;
+}
+
+
+
+
+/*thesis*/
+.thesis-section {
+    padding: 32px 0px 32px 24px;
+}
+
+.thesis-header {
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
 .thesis-info {
   display: flex;
   justify-content: space-between;
@@ -158,9 +208,17 @@ ul {
   padding-left: 24px;
 }
 
-.thesis-header {
+
+.thesis-left-details h5 {
     font-size: 2rem;
-    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin: 0;
+}
+
+.thesis-left-details p {
+    font-size: 1.55rem;
+    margin: 0;
 }
 
 .info-thesis-right-list {
@@ -200,11 +258,12 @@ ul {
   }
 
 
-
+/*footer*/
 .footer-colmar {
   display: flex;
   justify-content: space-between;
   padding: 16px 24px 64px 24px;
+  border-top: 1px solid #838685;
 }
 
 .terms-links ul {
