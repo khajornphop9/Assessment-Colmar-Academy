@@ -344,3 +344,20 @@ h4 {
 }
 
 
+@media screen and (max-width: 768px) {
+    .navbar{
+        height: 64px;
+    }
+    .nav-companies{
+        display: none;
+    }
+
+
+  .info-main {
+    display: none;
+  }
+
+
+}
+
+
