@@ -158,7 +158,10 @@ ul {
   padding-left: 24px;
 }
 
-.thesis-header
+.thesis-header {
+    font-size: 2rem;
+    text-align: center;
+}
 
 .info-thesis-right-list {
     display: flex;
