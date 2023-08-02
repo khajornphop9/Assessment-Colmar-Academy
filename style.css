@@ -46,16 +46,16 @@ h4 {
   padding-right: 24px;
   height: 64px;
 }
-.nav-logo{
-    display: flex;
+.nav-logo {
+  display: flex;
 }
 
-.nav-logo img{
-    height: 4rem;
+.nav-logo img {
+  height: 4rem;
 }
 
-.nav-companies{
-    font-size: 2rem;
+.nav-companies {
+  font-size: 2rem;
   align-self: center;
 }
 
@@ -104,7 +104,6 @@ h4 {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-
 
 /* It doesn't hurt to keep practicing */
 .info-main {
@@ -307,3 +306,41 @@ h4 {
 .terms-links a {
   padding-right: 16px;
 }
+
+/*responsive*/
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 425px) {
+    .navbar{
+        height: 64px;
+    }
+    .nav-companies{
+        display: none;
+    }
+
+    /* .ic-on-campus {
+
+    }
+    .ic-online {
+        
+    }
+    .ic-online-company{
+        
+    }
+    .ic-login {
+        
+    } */
+
+
+
+
+  .info-main {
+    display: none;
+  }
+
+
+}
+
+
