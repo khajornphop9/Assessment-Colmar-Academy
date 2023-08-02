@@ -1,0 +1,213 @@
+.html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.text-color-primary {
+  color: #4b4b4b;
+}
+
+.text-color-secondary {
+  color: #d7d7d7;
+}
+
+.text-color-tertiary {
+  color: #838685;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 64px;
+}
+
+.navbar-logo-colmar {
+  display: flex;
+}
+
+.nav-academy-name p {
+  font-size: 2rem;
+}
+
+.navbar-logo-colmar img {
+  height: 3rem;
+}
+
+.nav-menu ul {
+  display: flex;
+}
+
+.nav-menu li {
+  padding-left: 16px;
+}
+
+.nav-menu a {
+  font-size: 1.6rem;
+}
+
+.hero-info {
+  padding: 32px 24px 32px 24px;
+  background-color: #d7d7d7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4b4b4b;
+}
+
+.hero-left {
+  width: 60%;
+}
+
+.hero-right {
+  width: 40%;
+  padding-left: 24px;
+  font-size: 2rem;
+}
+
+.hero-right h1 {
+  font-size: 4rem;
+}
+
+.btn-hero {
+  width: 20rem;
+  color: white;
+  background-color: #4b4b4b;
+  font-size: 2rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.info-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0px 32px 24px;
+}
+
+.info-main-left {
+  width: 60%;
+}
+
+.info-main-right {
+  width: 40%;
+  padding-left: 24px;
+  
+}
+
+.info-main-right-list {
+  display: flex;
+}
+
+.info-main-right-list:last-child {
+    background-color: #d7d7d7;
+  }
+
+.info-main-right-img {
+  padding: 16px;
+  height: auto;
+  width: 35%;
+}
+
+.info-main-right-details {
+  width: 65%;
+  align-self: center;
+}
+
+.info-main-right-details-h5 {
+  color: #4b4b4b;
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.info-main-right-details-para {
+  padding-top: 8px;
+  padding-bottom: 8px;
+    margin: 0;
+  color: #838685;
+}
+
+.info-main-right-details a {
+  color: #5b8dd9;
+}
+
+.thesis-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thesis-left {
+  width: 60%;
+}
+
+.thesis-right {
+  width: 40%;
+  padding-left: 24px;
+}
+
+.thesis-header
+
+.info-thesis-right-list {
+    display: flex;
+  }
+  
+  .info-thesis-right-list:first-child{
+      background-color: #d7d7d7;
+    }
+  
+  .info-thesis-right-img {
+    padding: 16px;
+    height: auto;
+    width: 35%;
+  }
+  
+  .info-thesis-right-details {
+    width: 65%;
+    align-self: center;
+  }
+  
+  .info-thesis-right-details-h5 {
+    color: #4b4b4b;
+    font-size: 1.7rem;
+    margin: 0;
+  }
+  
+  .info-thesis-right-details-para {
+    padding-top: 8px;
+    padding-bottom: 8px;
+      margin: 0;
+    color: #838685;
+  }
+  
+  .info-thesis-right-details a {
+    color: #5b8dd9;
+  }
+
+
+
+.footer-colmar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 64px 24px;
+}
+
+.terms-links ul {
+  display: flex;
+}
+
+.terms-links a {
+  padding-right: 16px;
+}
