@@ -38,21 +38,25 @@ h4 {
 .navbar {
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
+  /* align-self: center; */
+  /* align-content: center; */
+  /* text-align: center; */
   padding-left: 24px;
   padding-right: 24px;
   height: 64px;
 }
-
-.navbar-logo-colmar {
-  display: flex;
+.nav-logo{
+    display: flex;
 }
 
-.nav-academy-name p {
-  font-size: 2rem;
+.nav-logo img{
+    height: 4rem;
 }
 
-.navbar-logo-colmar img {
-  height: 3rem;
+.nav-companies{
+    font-size: 2rem;
+  align-self: center;
 }
 
 .nav-menu ul {
