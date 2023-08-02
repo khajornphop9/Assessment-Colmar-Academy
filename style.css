@@ -163,9 +163,10 @@ h1, h2, h3, h4 {
     padding-bottom: 32px;
 
 }
-.start-learing-course {
+.start-learing-course-row-1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 32px;
 
 }
 
