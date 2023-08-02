@@ -170,6 +170,13 @@ h1, h2, h3, h4 {
 
 }
 
+.start-learing-course-row-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+
 .start-learing-course-set {
     background-color: white;
 }
