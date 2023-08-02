@@ -28,8 +28,11 @@ ul {
   list-style-type: none;
 }
 
-h1, h2, h3, h4 {
-    color: #4b4b4b;
+h1,
+h2,
+h3,
+h4 {
+  color: #4b4b4b;
 }
 
 .navbar {
@@ -64,6 +67,8 @@ h1, h2, h3, h4 {
   font-size: 1.6rem;
 }
 
+/* hero-info*/
+
 .hero-info {
   padding: 32px 24px 32px 24px;
   background-color: #d7d7d7;
@@ -96,6 +101,8 @@ h1, h2, h3, h4 {
   padding-bottom: 8px;
 }
 
+
+/* It doesn't hurt to keep practicing */
 .info-main {
   display: flex;
   justify-content: space-between;
@@ -109,7 +116,6 @@ h1, h2, h3, h4 {
 .info-main-right {
   width: 40%;
   padding-left: 24px;
-  
 }
 
 .info-main-right-list {
@@ -117,8 +123,8 @@ h1, h2, h3, h4 {
 }
 
 .info-main-right-list:last-child {
-    background-color: #d7d7d7;
-  }
+  background-color: #d7d7d7;
+}
 
 .info-main-right-img {
   padding: 16px;
@@ -140,7 +146,7 @@ h1, h2, h3, h4 {
 .info-main-right-details-para {
   padding-top: 8px;
   padding-bottom: 8px;
-    margin: 0;
+  margin: 0;
   color: #838685;
 }
 
@@ -150,56 +156,74 @@ h1, h2, h3, h4 {
 
 /*start learning*/
 
-.start-learing{
-    padding: 32px 32px 72px 72px;
-    background-color: #e9eaec;
+.start-learing {
+  padding: 32px 32px 72px 72px;
+  background-color: #e9eaec;
 }
 
 .start-learing h3 {
-    font-size: 2.2rem;
-    text-align: center;
-    margin: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-.start-learing-course-row-1 {
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
 
+.start-learing-course-row-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
 }
 
 .start-learing-course-row-2 {
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
-
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 32px;
 }
 
 .start-learing-course-set {
-    background-color: white;
+  background-color: white;
+  width: 410px;
+  height: auto;
 }
-
 
 .start-learing-course-set img {
-    height: auto;
+  height: auto;
 }
 
+.start-learing-column-details {
+  padding-left: 16px;
+}
 
+.start-learing-column-details h5 {
+  font-size: 1.3rem;
+  padding-top: 16px;
+  margin: 0px;
+}
 
+.start-learing-column-details-para {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 0px;
+}
+
+.start-learing-column-details-course {
+  margin: 0px;
+  padding-bottom: 24px;
+}
 
 /*thesis*/
 .thesis-section {
-    padding: 32px 0px 32px 24px;
+  padding: 32px 0px 32px 24px;
 }
 
 .thesis-header {
-    font-size: 2.2rem;
-    text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin: 0;
+  font-size: 2.2rem;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0;
 }
 
 .thesis-info {
@@ -216,55 +240,53 @@ h1, h2, h3, h4 {
   padding-left: 24px;
 }
 
-
 .thesis-left-details h5 {
-    font-size: 2rem;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin: 0;
+  font-size: 2rem;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0;
 }
 
 .thesis-left-details p {
-    font-size: 1.55rem;
-    margin: 0;
+  font-size: 1.55rem;
+  margin: 0;
 }
 
 .info-thesis-right-list {
-    display: flex;
-  }
-  
-  .info-thesis-right-list:first-child{
-      background-color: #d7d7d7;
-    }
-  
-  .info-thesis-right-img {
-    padding: 16px;
-    height: auto;
-    width: 35%;
-  }
-  
-  .info-thesis-right-details {
-    width: 65%;
-    align-self: center;
-  }
-  
-  .info-thesis-right-details-h5 {
-    color: #4b4b4b;
-    font-size: 1.7rem;
-    margin: 0;
-  }
-  
-  .info-thesis-right-details-para {
-    padding-top: 8px;
-    padding-bottom: 8px;
-      margin: 0;
-    color: #838685;
-  }
-  
-  .info-thesis-right-details a {
-    color: #5b8dd9;
-  }
+  display: flex;
+}
 
+.info-thesis-right-list:first-child {
+  background-color: #d7d7d7;
+}
+
+.info-thesis-right-img {
+  padding: 16px;
+  height: auto;
+  width: 35%;
+}
+
+.info-thesis-right-details {
+  width: 65%;
+  align-self: center;
+}
+
+.info-thesis-right-details-h5 {
+  color: #4b4b4b;
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.info-thesis-right-details-para {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 0;
+  color: #838685;
+}
+
+.info-thesis-right-details a {
+  color: #5b8dd9;
+}
 
 /*footer*/
 .footer-colmar {
